@@ -98,3 +98,17 @@ body {
    bottom: 0;
    left: 0;
  }
+
+ .logos  {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-gap: 40px;
+   margin: 100px 0;
+   justify-items: center;
+ }
+
+ @media (max-width: 640px) {
+   .logos {
+     grid-template-columns: repeat(3, 1fr);
+   }
+ }
