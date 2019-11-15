@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SectionGroup = styled.div`
-  background-color: black;
+  background-color: 
   height: 720px;
 `
 
